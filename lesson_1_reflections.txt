@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+This helped me quickly see only the changed lines instead of searching manually
+through every line. If I know the file worked before a change and doesn't after
+a change, most likely what changed is what's making the file no longer work
+correctly.
+--------------------------------------------------------------------------------
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Having access to previous versions can help with reverting to code taken out or
+refactored without having to rewrite that code again.
+--------------------------------------------------------------------------------
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+pro: meaningful bookmarks to make searching through the project history easier.
+con: risk of others working on the same project not having the most up-to-date
+files.
+--------------------------------------------------------------------------------
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git targets the development community, which tends to make related changes
+across multiple files, where Google Docs targets the productivity community,
+which tends to make changes to unrelated files.
+--------------------------------------------------------------------------------
+How can you use the commands git log and git diff to view the history of files?
+
+git log will show you the history of changes, and git diff will show you what
+changed specifically between two commits. This makes it easy to figure out what
+has changed and when to help with debugging or rolling back to a previous state.
+--------------------------------------------------------------------------------
+How might using version control make you more confident to make changes that
+could break something?
+
+Knowing that you can always revert back to a time where it worked before (if it
+worked before), I can be confidant when cleaning up and refactoring code that
+I'm not going to screw it all up with a typo.
+--------------------------------------------------------------------------------
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Developing smarter with version control.
